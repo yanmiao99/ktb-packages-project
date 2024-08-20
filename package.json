@@ -1,0 +1,29 @@
+{
+  "name": "@ktb-packages-project/workspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm --filter @ktb-packages-project/play dev",
+    "build": "pnpm --filter @ktb-packages-project/play build"
+  },
+  "keywords": [],
+  "author": "<yanmiao> 503084944@qq.com",
+  "license": "ISC",
+  "dependencies": {
+    "@ktb-packages-project/components": "workspace:*",
+    "@ktb-packages-project/hooks": "workspace:*",
+    "@ktb-packages-project/utils": "workspace:*",
+    "@ktb-packages-project/pages": "workspace:*",
+    "ktb-packages-project": "workspace:*",
+    "lodash-es": "4.17.21",
+    "vue": "^3.4.37"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.2",
+    "autoprefixer": "^10.4.20",
+    "less": "^4.2.0",
+    "postcss-px-to-viewport": "^1.1.1",
+    "vite": "^5.4.1"
+  }
+}
