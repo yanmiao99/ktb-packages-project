@@ -1,7 +1,3 @@
-import { KtbProjectOne,KtbProjectTwo,KtbProjectThree } from '@ktb-packages-project/pages';
+import { KtbProjectOne, KtbProjectTwo, KtbProjectThree } from '@ktb-packages-project/pages'
 
-export default [
-  KtbProjectOne,
-  KtbProjectTwo,
-  KtbProjectThree
-]
+export default [KtbProjectOne, KtbProjectTwo, KtbProjectThree]

@@ -9,7 +9,7 @@ defineOptions({
 
 <template>
   <div>
-    <h1>ktb-project-three</h1>
+    <h1 style="color:brown">ktb-project-three</h1>
   </div>
 </template>
 

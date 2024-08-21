@@ -13,8 +13,9 @@
   "dependencies": {
     "@ktb-packages-project/components": "workspace:*",
     "@ktb-packages-project/hooks": "workspace:*",
-    "@ktb-packages-project/utils": "workspace:*",
     "@ktb-packages-project/pages": "workspace:*",
+    "@ktb-packages-project/styles": "workspace:*",
+    "@ktb-packages-project/utils": "workspace:*",
     "ktb-packages-project": "workspace:*",
     "lodash-es": "4.17.21",
     "vue": "^3.4.37"
@@ -22,8 +23,13 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.1.2",
     "autoprefixer": "^10.4.20",
+    "eslint": "^9.9.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
     "less": "^4.2.0",
     "postcss-px-to-viewport": "^1.1.1",
-    "vite": "^5.4.1"
+    "prettier": "^3.3.3",
+    "vite": "^5.4.1",
+    "vite-plugin-eslint": "^1.8.1"
   }
 }
