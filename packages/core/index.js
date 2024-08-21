@@ -1,6 +1,6 @@
 import { makeInstaller } from '@ktb-packages-project/utils'
 import components from './components'
-import '@ktb-packages-project/styles/index.less'
+import '@ktb-packages-project/styles/index.css'
 
 const installer = makeInstaller(components)
 
