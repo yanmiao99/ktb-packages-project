@@ -1,15 +1,7 @@
-<script setup>
-</script>
 
 <template>
+  <ktb-project-test3/>
 
-  <!-- <ktb-project-one/>
-  <ktb-project-two/> -->
-  <ktb-project-three/>
-
-
+  <!-- 最后修改时间 : 2024-08-22 17:33:54 -->
+  <!-- 修改人 : yanmiao99 -->
 </template>
-
-<style scoped>
-
-</style>

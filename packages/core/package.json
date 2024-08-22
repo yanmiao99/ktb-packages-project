@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "build-umd": "vite build --config vite.umd.config.js"
+    "build-umd": "vite build --config vite.umd.config.js",
+    "build-es": "vite build --config vite.es.config.js"
   },
   "dependencies": {
     "@ktb-packages-project/pages": "workspace:*"
