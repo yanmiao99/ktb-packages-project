@@ -1,8 +1,8 @@
 
-import { KtbProjectTest5 } from '@ktb-packages-project/pages'
+import { KtbProjectTest6 } from '@ktb-packages-project/pages'
 
-export default [KtbProjectTest5]
+export default [KtbProjectTest6]
 
 
-// 最后修改时间 : 2024-08-22 17:52:08
+// 最后修改时间 : 2024-08-22 19:46:01
 // 修改人 : yanmiao99
