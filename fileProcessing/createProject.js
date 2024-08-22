@@ -82,8 +82,8 @@ fs.mkdirSync(path.resolve(projectPath, 'router'))
 const routerContent = `
 import { createMemoryHistory, createRouter } from 'vue-router'
 
-import HomeView from '../home.vue'
-import AboutView from '../about.vue'
+import HomeView from '../view/home.vue'
+import AboutView from '../view/about.vue'
 
 const routes = [
   {
@@ -104,6 +104,9 @@ export default router
 
 fs.writeFileSync(path.resolve(projectPath, 'router/index.js'), routerContent)
 
+// 创建 view 文件夹
+fs.mkdirSync(path.resolve(projectPath, 'view'))
+
 // 创建 home.vue 文件
 const homeContent = `
 <template>
@@ -112,7 +115,7 @@ const homeContent = `
 </template>
 `
 
-fs.writeFileSync(path.resolve(projectPath, 'home.vue'), homeContent)
+fs.writeFileSync(path.resolve(projectPath, 'view/home.vue'), homeContent)
 
 // 创建 about.vue 文件
 const aboutContent = `
@@ -122,7 +125,7 @@ const aboutContent = `
 </template>
 `
 
-fs.writeFileSync(path.resolve(projectPath, 'about.vue'), aboutContent)
+fs.writeFileSync(path.resolve(projectPath, 'view/about.vue'), aboutContent)
 
 // 创建 assets 文件夹
 fs.mkdirSync(path.resolve(projectPath, 'assets'))
